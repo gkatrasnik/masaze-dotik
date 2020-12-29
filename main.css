@@ -7,10 +7,28 @@ footer {
     padding: 15px;
     left: 0;
     bottom: 0;
+    font-size: small;
 }
 
-  .carousel-inner img {
-    width: 100%; /* Set width to 100% */
-    margin: auto;
-    min-height:200px;
+footer a {
+  color:white;
 }
+
+footer a:hover {
+  color: lightblue;
+}
+
+a {
+  color: black;
+}
+
+.social-media {
+  width: 50px;
+  
+}
+
+.social-media:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
