@@ -18,6 +18,10 @@ footer a:hover {
   color: lightblue;
 }
 
+.iframe-container {
+  overflow: hidden;
+}
+
 a {
   color: black;
 }
