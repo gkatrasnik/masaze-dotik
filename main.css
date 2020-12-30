@@ -22,11 +22,13 @@ html, body {
 }
 
 .jumbotron {
-  background-image: url();
-  background-size: cover;
+  background-image: url("images/jumbo-banner.jpg");
+  background-size: cover; 
   
-  background-position: center center;
-   
+  background-position: top center;
+  color: white;
+  padding: 5em;
+  
 }
 
 footer {
