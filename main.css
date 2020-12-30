@@ -1,13 +1,40 @@
+/* PRIMARY COLORS */
+
+.dotik-logo-green {
+  background-color: #007a7e;
+}
+
+.dotik-banner-green {
+  background-color: #3a8289;
+}
+
+.dotik-brown{
+  background-color: #e7a982;
+}
+
+.dotik-dark-brown {
+  background-color: #c98b64;
+}
+
+/* CSS */
 html, body {
  min-height: 100vh; 
 }
 
+.jumbotron {
+  background-image: url();
+  background-size: cover;
+  
+  background-position: center center;
+   
+}
+
 footer {
-    color: white;
-    padding: 15px;
-    left: 0;
-    bottom: 0;
-    font-size: small;
+  color: white;
+  padding: 15px;
+  left: 0;
+  bottom: 0;
+  font-size: small;
 }
 
 footer a {
@@ -15,7 +42,7 @@ footer a {
 }
 
 footer a:hover {
-  color: lightblue;
+  color:  #e7a982;
 }
 
 .iframe-container {
@@ -24,6 +51,20 @@ footer a:hover {
 
 a {
   color: black;
+}
+
+a:hover {
+  color:  #c98b64;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+  color:white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color:  #e7a982;
 }
 
 .social-media {
