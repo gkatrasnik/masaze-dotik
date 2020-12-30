@@ -25,9 +25,9 @@ html, body {
   background-image: url("images/jumbo-banner.jpg");
   background-size: cover; 
   
-  background-position: top center;
+  background-position:top center;
   color: white;
-  padding: 5em;
+  padding: 8em;
   
 }
 
