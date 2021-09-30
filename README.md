@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
@@ -100,6 +101,10 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/kosvrouvas/gatsby-tailwindcss-starter)
 
 <!-- AUTO-GENERATED-CONTENT:END -->
+=======
+# masaze-dotik
+masaze dotik, small bussiness website
+>>>>>>> b3aecc4730719d438ed2ec666cc229d748ef9794
 =======
 # masaze-dotik
 masaze dotik, small bussiness website
