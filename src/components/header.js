@@ -15,10 +15,11 @@ function Header({ siteTitle }) {
           width={117}
           height={40}
         />
-        */
+        {/*
         <span className="text-xl font-semibold tracking-tight">
           {siteTitle}
         </span>
+        */}
       </div>
       <div className="block lg:hidden">
         <button

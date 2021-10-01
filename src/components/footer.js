@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa"
 function Footer() {
   return (
     <footer>
-      <div className="flex justify-evenly flex-wrap px-4 bg-gray-200 p-4 content-center">
+      <div className="flex justify-evenly flex-wrap px-4 bg-gray-200 p-4 mt-4 content-center">
         <div className="flex">
           <Link to={`https://www.facebook.com/dotikmasaze`} className="px-2">
             <FaFacebook size={"2em"} />
