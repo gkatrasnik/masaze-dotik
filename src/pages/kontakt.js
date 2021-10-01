@@ -13,11 +13,11 @@ const Kontakt = props => (
     </p>
     <p>
       <b>Telefon: </b>
-      <a href="tel:555-555-5555">555-555-5555</a>
+      <a href="tel:040996397">040 996 397</a>
     </p>
     <p>
       <b>Email: </b>
-      <a href="mailto:someone@example.com">someone@example.com</a>
+      <a href="mailto:masaze.dotik@gmail.com">masaze.dotik@gmail.com</a>
     </p>
     <p>
       <b>Naslov: </b>Planina 3, 4000 Kranj

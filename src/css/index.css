@@ -9,8 +9,13 @@ h2 {
 h3 {
   @apply text-lg;
 }
+p {
+  @apply text-base;
+}
+
 a {
   @apply text-gray-700;
+  @apply text-base;
 }
 a:hover {
   @apply text-gray-400;
