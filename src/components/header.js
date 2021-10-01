@@ -1,13 +1,21 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-6 mb-6 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+    <nav className="sticky top-0 w-full z-10 flex flex-wrap items-center justify-between p-6 mb-6 bg-gradient-to-r from-dotikLogoGreen via-dotikLogoGreen to-dotikDarkBrown">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
+        <StaticImage
+          src="../images/logo-horizontal.png"
+          alt="masaže dotik logo"
+          width={117}
+          height={40}
+        />
+        */
         <span className="text-xl font-semibold tracking-tight">
           {siteTitle}
         </span>
@@ -41,12 +49,7 @@ function Header({ siteTitle }) {
             >
               Domov
             </Link>
-            <Link
-              to={`/storitve`}
-              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-            >
-              Storitve
-            </Link>
+
             <Link
               to={`/reference`}
               className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"

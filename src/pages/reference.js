@@ -8,8 +8,11 @@ const Reference = props => (
   <Layout>
     <SEO title="Storitve" />
     <h1>Reference</h1>
-    <p>Welcome to page 2 ({props.path})</p>
-    <Link to="/">Go back to the homepage</Link>
+    <h2>Moje stranke:</h2>
+    <p>Primož Roglič</p>
+    <p>Ekipa Jumbo Visma</p>
+    <p>SLovenska reprezentanca</p>
+    <p>Kolesarski klub Adria Mobil</p>
   </Layout>
 )
 

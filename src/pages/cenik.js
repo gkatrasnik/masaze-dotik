@@ -6,10 +6,20 @@ import SEO from "../components/seo"
 
 const Cenik = props => (
   <Layout>
-    <SEO title="Storitve" />
+    <SEO title="Cenik" />
     <h1>Cenik</h1>
-    <p>Welcome to page 2 ({props.path})</p>
-    <Link to="/">Go back to the homepage</Link>
+    <h2>Cene masažnih storitev</h2>
+    <h4>Terapevtska masaža</h4>
+    <p>30min - 30€</p>
+    <p>60min - 40€</p>
+    <p>90min - 50€</p>
+    <h4>Športna masaža</h4>
+    <p>30min - 30€</p>
+    <p>60min - 40€</p>
+    <p>90min - 50€</p>
+    <h4>Klasična masaža</h4>
+    <p>60min - 40€</p>
+    <p>90min - 50€</p>
   </Layout>
 )
 
