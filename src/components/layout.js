@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
     <>
       <div className="flex flex-col h-full">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main className="flex-grow px-4">{children}</main>
+        <main className="flex-grow w-5/6 self-center">{children}</main>
         <Footer />
       </div>
     </>

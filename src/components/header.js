@@ -32,28 +32,40 @@ function Header({ siteTitle }) {
           isExpanded ? `block` : `hidden`
         } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-sm lg:flex-grow">
-          <Link
-            to={`/`}
-            href="#responsive-header"
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-          >
-            Home
-          </Link>
-          <Link
-            to={`/page-2`}
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
-          >
-            page 2
-          </Link>
-        </div>
-        <div>
-          <a
-            href="#download"
-            className="inline-block px-4 py-2 mt-4 text-sm leading-none text-white border border-white rounded hover:border-transparent hover:text-black hover:bg-white lg:mt-0"
-          >
-            Download
-          </a>
+        <div className="text-sm lg:flex-grow  ">
+          <div className="lg:float-right">
+            <Link
+              to={`/`}
+              href="#responsive-header"
+              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            >
+              Domov
+            </Link>
+            <Link
+              to={`/storitve`}
+              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            >
+              Storitve
+            </Link>
+            <Link
+              to={`/reference`}
+              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            >
+              Reference
+            </Link>
+            <Link
+              to={`/cenik`}
+              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            >
+              Cenik
+            </Link>
+            <Link
+              to={`/kontakt`}
+              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            >
+              Kontakt
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
