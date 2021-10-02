@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Domov" />
     <h1 className="text-center mb-8">Masaže Dotik</h1>
-    <div className="flex flex-wrap-reverse justify-center md:flex-nowrap">
+    <div className="flex flex-wrap-reverse justify-center md:flex-nowrap bg-gray-100 border-4 p-8 rounded-lg">
       <p className="p-4 md:w-1/2 ">
         Sem Jernej Švab, maser in terapevt. Skupaj s stranko najprej opredelim
         problem, potem pa s celostnim pristopom poizkušam najti vzrok problema
@@ -21,6 +21,7 @@ const IndexPage = () => (
         alt="Jernej Švab, Masaže Dotik"
         width={400}
         constrained
+        className="rounded-lg"
       />
     </div>
   </Layout>

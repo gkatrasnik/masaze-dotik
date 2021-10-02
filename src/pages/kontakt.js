@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const Kontakt = props => (
   <Layout>
-    <SEO title="Storitve" />
+    <SEO title="Kontakt" />
     <h1 className="text-center mb-8">Kontakt</h1>
     <p>
       <b>Delovni čas: </b>Vsak delovni dan, po dogovoru.

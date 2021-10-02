@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const Reference = props => (
   <Layout>
-    <SEO title="Storitve" />
+    <SEO title="Reference" />
     <h1 className="text-center mb-8">Reference</h1>
     <h2>Moje stranke:</h2>
     <p>Primož Roglič</p>

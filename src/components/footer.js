@@ -14,7 +14,7 @@ function Footer() {
             <FaInstagram size={"2em"} />
           </Link>
         </div>
-        <Link to={`/kontakt`}>
+        <Link>
           <div className="leading-loose">
             <a href="tel:040996397"> Tel: 040 996 397</a>
           </div>
