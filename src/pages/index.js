@@ -29,7 +29,7 @@ const IndexPage = () => (
         alt="Jernej Švab, Masaže Dotik"
         width={400}
         className="rounded-lg"
-      />{" "}
+      />
       <div className="p-4 md:w-1/2 ">
         <div className="relative md:top-2 lg:top-8">
           <p className="text-lg">
