@@ -10,6 +10,13 @@ const Kontakt = props => (
     <h1 className="text-center mb-8">Kontakt</h1>
     <div className="flex flex-col justify-center md:flex-nowrap bg-gray-100 border-4 py-4 md:py-8 px-4 m-2 rounded-lg">
       <p className="text-lg">
+        <b>DOTIK, MASAŽNE STORITVE, JERNEJ ŠVAB S.P.</b>
+      </p>
+      <br />
+      <p className="text-lg">
+        <b>Naslov: </b>Planina 3, 4000 Kranj
+      </p>
+      <p className="text-lg">
         <b>Delovni čas: </b>Po dogovoru.
       </p>
       <p className="text-lg">
@@ -23,9 +30,6 @@ const Kontakt = props => (
         <a href="mailto:masaze.dotik@gmail.com" className="text-lg">
           masaze.dotik@gmail.com
         </a>
-      </p>
-      <p className="text-lg">
-        <b>Naslov: </b>Planina 3, 4000 Kranj
       </p>
     </div>
   </Layout>

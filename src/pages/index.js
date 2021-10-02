@@ -33,15 +33,19 @@ const IndexPage = () => (
       <div className="p-4 md:w-1/2 ">
         <div className="relative md:top-2 lg:top-8">
           <p className="text-lg">
-            <b>Delovni čas: </b>Po dogovoru.
+            <b>Delovni čas: </b>Po dogovoru
           </p>
           <p className="text-lg">
             <b>Telefon: </b>
-            <a href="tel:040996397">040 996 397</a>
+            <a href="tel:040996397" className="text-lg">
+              040 996 397
+            </a>
           </p>
           <p className="text-lg">
             <b>Email: </b>
-            <a href="mailto:masaze.dotik@gmail.com">masaze.dotik@gmail.com</a>
+            <a href="mailto:masaze.dotik@gmail.com" className="text-lg">
+              masaze.dotik@gmail.com
+            </a>
           </p>
           <p className="text-lg">
             <b>Naslov: </b>Planina 3, 4000 Kranj

@@ -50,12 +50,7 @@ function Header({ siteTitle }) {
             >
               Domov
             </Link>
-            <Link
-              to={`/kontakt`}
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
-            >
-              Kontakt
-            </Link>
+
             <Link
               to={`/reference`}
               className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
@@ -73,6 +68,12 @@ function Header({ siteTitle }) {
               className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
             >
               O meni
+            </Link>
+            <Link
+              to={`/kontakt`}
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
+            >
+              Kontakt
             </Link>
           </div>
         </div>
