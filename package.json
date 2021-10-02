@@ -5,6 +5,8 @@
   "version": "0.3.0",
   "author": "Masaze Dotik <masaze.dotik@gmail.com>",
   "dependencies": {
+    "@fontsource/open-sans": "^4.5.1",
+    "@fontsource/roboto": "^4.5.1",
     "autoprefixer": "^10.2.6",
     "gatsby": "^3.7.1",
     "gatsby-image": "^3.7.1",

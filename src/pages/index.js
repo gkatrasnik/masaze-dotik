@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Domov" />
     <h1 className="text-center mb-8">Masaže Dotik</h1>
 
-    <div className="flex flex-wrap-reverse justify-center md:flex-nowrap bg-gray-100 border-4 py-4 md:py-8 px-4 m-2 rounded-lg">
+    <div className="flex flex-wrap-reverse justify-center md:flex-nowrap py-4 md:py-8 px-4 m-2 ">
       <div className="p-4 md:w-1/2 ">
         <div className="relative md:top-2 lg:top-8">
           <p className="text-lg">
@@ -40,19 +40,24 @@ const IndexPage = () => (
         className="rounded-lg"
       />
     </div>
-    <div className="flex flex-wrap justify-center md:flex-nowrap bg-gray-100 border-4 py-4 md:py-8 px-4 m-2 rounded-lg">
+    <div className="flex flex-wrap justify-center md:flex-nowrap  py-4 md:py-8 px-4 m-2 ">
       <StaticImage
         src="../images/pri-delu.jpg"
         alt="Jernej Švab, Masaže Dotik"
         width={400}
         className="rounded-lg"
       />
-      <p className="p-4 md:w-1/2 ">
-        Sem Jernej Švab, maser in terapevt. Pri svojem delu skupaj s stranko
-        najprej opredeliva težavo, nato pa s celostnim pristopom poiščemo vzrok
-        problema in ga odpravimo. Pri delu uporabljam različne tehnike in
-        izkušnje pridobljene z leti dela in izobraževanj.
-      </p>
+      <div className="p-4 md:w-1/2 ">
+        <p>
+          <b>Jernej Švab</b> maser in terapevt.
+        </p>
+
+        <p>
+          Pri svojem delu skupaj s stranko opredeliva težavo, s celostnim
+          pristopom poiščeva vzrok problema in ga odpraviva. Tehnike in znanja
+          ki jih uporabljam, so pridobljena z leti izkušenj in izobraževanj.
+        </p>
+      </div>
     </div>
   </Layout>
 )

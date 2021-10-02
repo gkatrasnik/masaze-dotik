@@ -15,11 +15,10 @@ function Header({ siteTitle }) {
           width={117}
           height={40}
         />
-        {/*
-        <span className="text-xl font-semibold tracking-tight">
+        {/* 
+        <span className="text-xl font-semibold tracking-tight text-dotikLogoGreen">
           {siteTitle}
-        </span>
-        */}
+        </span>*/}
       </div>
       <div className="block md:hidden">
         <button
@@ -46,32 +45,32 @@ function Header({ siteTitle }) {
             <Link
               to={`/`}
               href="#responsive-header"
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
             >
               Domov
             </Link>
 
             <Link
               to={`/reference`}
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
             >
               Reference
             </Link>
             <Link
               to={`/cenik`}
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
             >
               Cenik
             </Link>
             <Link
               to={`/omeni`}
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
             >
               O meni
             </Link>
             <Link
               to={`/kontakt`}
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
             >
               Kontakt
             </Link>

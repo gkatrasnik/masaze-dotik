@@ -8,13 +8,13 @@ const Cenik = props => (
   <Layout>
     <SEO title="Cenik" />
     <h1 className="text-center mb-8">Cenik</h1>
-    <div className=" bg-gray-100 border-4 py-4 px-4 w-max mx-auto rounded-lg">
+    <div className="py-4 sm:px-4 w-max mx-auto ">
       <table className="table-auto">
         <thead>
           <tr>
-            <th className=" md:w-40"></th>
-            <th className=" md:w-40 ">Čas</th>
-            <th className=" md:w-40 ">Cena</th>
+            <th className=" sm:w-40"></th>
+            <th className=" sm:w-40 ">Čas</th>
+            <th className=" sm:w-40 ">Cena</th>
           </tr>
         </thead>
         <tbody>
@@ -34,7 +34,7 @@ const Cenik = props => (
             <td className=" text-center">50€</td>
           </tr>
           <br />
-          <tr>
+          <tr className="border-t-2 border-gray-400 ">
             <th>Športna masaža</th>
             <td className=" text-center">30min</td>
             <td className=" text-center">30€</td>
@@ -50,7 +50,7 @@ const Cenik = props => (
             <td className="text-center">50€</td>
           </tr>
           <br />
-          <tr>
+          <tr className="border-t-2 border-gray-400 ">
             <th>Klasična masaža</th>
             <td className=" text-center">60min</td>
             <td className=" text-center">40€</td>
