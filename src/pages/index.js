@@ -14,9 +14,6 @@ const IndexPage = () => (
       <div className="p-4 md:w-1/2 ">
         <div className="relative md:top-2 lg:top-8">
           <p className="text-lg">
-            <b>Delovni čas: </b>Po dogovoru
-          </p>
-          <p className="text-lg">
             <b>Telefon: </b>
             <a href="tel:040996397" className="text-lg">
               040 996 397
@@ -30,6 +27,9 @@ const IndexPage = () => (
           </p>
           <p className="text-lg">
             <b>Naslov: </b>Planina 3, 4000 Kranj
+          </p>
+          <p className="text-lg">
+            <b>Delovni čas: </b>Po dogovoru
           </p>
         </div>
       </div>
