@@ -21,7 +21,7 @@ function Header({ siteTitle }) {
         </span>
         */}
       </div>
-      <div className="block lg:hidden">
+      <div className="block md:hidden">
         <button
           onClick={() => toggleExpansion(!isExpanded)}
           className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-white hover:border-white"
@@ -39,35 +39,40 @@ function Header({ siteTitle }) {
       <div
         className={`${
           isExpanded ? `block` : `hidden`
-        } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
+        } w-full block flex-grow md:flex md:items-center md:w-auto`}
       >
-        <div className="text-sm lg:flex-grow  ">
-          <div className="lg:float-right">
+        <div className="text-sm md:flex-grow  ">
+          <div className="md:float-right">
             <Link
               to={`/`}
               href="#responsive-header"
-              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
             >
               Domov
             </Link>
-
+            <Link
+              to={`/kontakt`}
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
+            >
+              Kontakt
+            </Link>
             <Link
               to={`/reference`}
-              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
             >
               Reference
             </Link>
             <Link
               to={`/cenik`}
-              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
             >
               Cenik
             </Link>
             <Link
-              to={`/kontakt`}
-              className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+              to={`/omeni`}
+              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-white"
             >
-              Kontakt
+              O meni
             </Link>
           </div>
         </div>
