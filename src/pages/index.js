@@ -14,6 +14,7 @@ const IndexPage = () => (
       style={{
         backgroundImage: `url(${Banner})`,
         backgroundSize: "cover",
+        backgroundPosition: "center center",
         height: "91vh",
       }}
     >
@@ -46,14 +47,14 @@ const IndexPage = () => (
           <StaticImage
             src="../images/jernej_svab_masaze_dotik_2.jpeg"
             alt="Jernej Švab, Masaže Dotik"
-            height={300}
-            width={300}
+            height={260}
+            width={260}
             className="rounded-full"
           />
         </div>
       </div>
     </div>
-    <div className="flex flex-wrap justify-center md:flex-nowrap w-4/5 mx-auto py-4 md:py-8 px-4 my-8 ">
+    <div className="flex flex-wrap justify-center md:flex-nowrap w-4/5 mx-auto py-4 md:py-8 px-4 my-12 ">
       <StaticImage
         src="../images/pri-delu.jpg"
         alt="Jernej Švab, Masaže Dotik"
