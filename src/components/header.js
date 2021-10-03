@@ -7,7 +7,7 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className=" sticky top-0 md:relative w-full z-10 flex flex-wrap items-center justify-between p-6 mb-0 bg-dotikHeaderBrown">
+    <nav className=" sticky   w-full z-10 flex flex-wrap items-center justify-between p-6 mb-0 bg-black ">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
         {/* <StaticImage
           src="../images/logo-horizontal.png"
@@ -23,7 +23,7 @@ function Header({ siteTitle }) {
       <div className="block md:hidden">
         <button
           onClick={() => toggleExpansion(!isExpanded)}
-          className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-dotikDarkBrown hover:border-dotikDarkBrown"
+          className="flex items-center px-3 py-2 text-dotikDarkBrown border border-dotikDarkBrown rounded hover:text-white hover:border-white"
         >
           <svg
             className="w-3 h-3 fill-current"

@@ -15,7 +15,7 @@ const IndexPage = () => (
         backgroundImage: `url(${Banner})`,
         backgroundSize: "cover",
         backgroundPosition: "center center",
-        height: "91vh",
+        height: "92vh",
       }}
     >
       <div className="h-full flex flex-wrap-reverse justify-evenly md:flex-nowrap py-4 md:py-8 px-4  ">
