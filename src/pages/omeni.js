@@ -8,8 +8,8 @@ import SEO from "../components/seo"
 const Omeni = () => (
   <Layout>
     <SEO title="O meni" />
-    <h1 className="text-center mb-8">O meni - Jernej Švab</h1>
-    <div className="flex flex-wrap justify-center  p-3 md:p-8">
+    <h1 className="text-center my-8">O meni - Jernej Švab</h1>
+    <div className="flex flex-wrap justify-center md:w-4/5 mx-auto p-3 md:p-8">
       <p className=" pb-6 ">
         Sem Jernej Švab, maser in terapevt. Prihajam iz Tržiča, delam pa v
         svojem masažnem salonu v Kranju. Od malih nog sem povezan s športom. 10

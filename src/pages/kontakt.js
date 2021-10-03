@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Kontakt = props => (
   <Layout>
     <SEO title="Kontakt" />
-    <h1 className="text-center mb-8">Kontakt</h1>
+    <h1 className="text-center my-8">Kontakt</h1>
 
     <div className="flex flex-col justify-center md:flex-nowrap py-4 md:py-8 px-4 my-2 sm:w-2/3 mx-auto">
       <p className="text-lg">

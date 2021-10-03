@@ -7,8 +7,9 @@ module.exports = {
       colors: {
         dotikLogoGreen: "#007a7e",
         dotikBannerGreen: "#3a8289",
-        dotikBrown: "#e7a982",
         dotikDarkBrown: "#c98b64",
+        dotikExtraDarkBrown: "#a06f50",
+        dotikHeaderBrown: "#3b332e",
       },
     },
   },

@@ -4,48 +4,60 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Banner from "../images/banner-photo.jpg"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Domov" />
-    <h1 className="text-center mb-8">Masaže Dotik</h1>
-
-    <div className="flex flex-wrap-reverse justify-center md:flex-nowrap py-4 md:py-8 px-4 m-2 ">
-      <div className="p-4 md:w-1/2 ">
-        <div className="relative md:top-2 lg:top-8">
-          <p className="text-lg">
-            <b>Telefon: </b>
-            <a href="tel:040996397" className="text-lg">
-              040 996 397
-            </a>
-          </p>
-          <p className="text-lg">
-            <b>Email: </b>
-            <a href="mailto:masaze.dotik@gmail.com" className="text-lg">
-              masaze.dotik@gmail.com
-            </a>
-          </p>
-          <p className="text-lg">
-            <b>Naslov: </b>Planina 3, 4000 Kranj
-          </p>
-          <p className="text-lg">
-            <b>Delovni čas: </b>Po dogovoru
-          </p>
+    <div
+      className="w-full"
+      style={{
+        backgroundImage: `url(${Banner})`,
+        backgroundSize: "cover",
+        height: "87vh",
+      }}
+    >
+      <div className="h-full flex flex-wrap-reverse justify-center md:flex-nowrap py-4 md:py-8 px-4  ">
+        <div className="p-4 md:w-1/2 flex justify-center content-center  ">
+          <div className="flex flex-col justify-center">
+            <p className="text-lg text-white">
+              Telefon:
+              <a href="tel:040996397" className="text-lg">
+                <b> 040 996 397</b>
+              </a>
+            </p>
+            <p className="text-lg text-white">
+              Email:
+              <a href="mailto:masaze.dotik@gmail.com" className="text-lg">
+                <b> masaze.dotik@gmail.com </b>
+              </a>
+            </p>
+            <p className="text-lg text-white">
+              Naslov:<b> Planina 3, 4000 Kranj </b>
+            </p>
+            <p className="text-lg text-white">
+              Delovni čas:<b> Po dogovoru </b>
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center">
+          <StaticImage
+            src="../images/jernej_svab_masaze_dotik_2.jpeg"
+            alt="Jernej Švab, Masaže Dotik"
+            height={300}
+            width={300}
+            className="rounded-full"
+          />
         </div>
       </div>
-      <StaticImage
-        src="../images/jernej_svab_masaze_dotik_2.jpeg"
-        alt="Jernej Švab, Masaže Dotik"
-        width={400}
-        className="rounded-lg"
-      />
     </div>
-    <div className="flex flex-wrap justify-center md:flex-nowrap  py-4 md:py-8 px-4 m-2 ">
+    <div className="flex flex-wrap justify-center md:flex-nowrap w-4/5 mx-auto py-4 md:py-8 px-4 my-8 ">
       <StaticImage
         src="../images/pri-delu.jpg"
         alt="Jernej Švab, Masaže Dotik"
         width={400}
-        className="rounded-lg"
+        height={300}
+        className="rounded"
       />
       <div className="p-4 md:w-1/2 ">
         <p>

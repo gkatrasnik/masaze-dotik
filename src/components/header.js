@@ -7,23 +7,23 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="sticky top-0 w-full z-10 flex flex-wrap items-center justify-between p-6 mb-6 bg-gradient-to-r from-dotikLogoGreen via-dotikLogoGreen to-dotikDarkBrown">
+    <nav className=" sticky top-0 md:relative w-full z-10 flex flex-wrap items-center justify-between p-6 mb-0 bg-dotikHeaderBrown">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
-        <StaticImage
+        {/* <StaticImage
           src="../images/logo-horizontal.png"
           alt="masaže dotik logo"
           width={117}
           height={40}
         />
-        {/* 
-        <span className="text-xl font-semibold tracking-tight text-dotikLogoGreen">
+        */}
+        <span className="text-xl font-light  tracking-tight text-white">
           {siteTitle}
-        </span>*/}
+        </span>
       </div>
       <div className="block md:hidden">
         <button
           onClick={() => toggleExpansion(!isExpanded)}
-          className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-white hover:border-white"
+          className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-dotikDarkBrown hover:border-dotikDarkBrown"
         >
           <svg
             className="w-3 h-3 fill-current"
@@ -45,32 +45,32 @@ function Header({ siteTitle }) {
             <Link
               to={`/`}
               href="#responsive-header"
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
+              className="block mt-4 mr-4 text-white md:text-lg md:inline-block md:mt-0 hover:text-dotikDarkBrown"
             >
               Domov
             </Link>
 
             <Link
               to={`/reference`}
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
+              className="block mt-4 mr-4 text-white md:text-lg md:inline-block md:mt-0 hover:text-dotikDarkBrown"
             >
               Reference
             </Link>
             <Link
               to={`/cenik`}
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
+              className="block mt-4 mr-4 text-white md:text-lg md:inline-block md:mt-0 hover:text-dotikDarkBrown"
             >
               Cenik
             </Link>
             <Link
               to={`/omeni`}
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
+              className="block mt-4 mr-4 text-white md:text-lg md:inline-block md:mt-0 hover:text-dotikDarkBrown"
             >
               O meni
             </Link>
             <Link
               to={`/kontakt`}
-              className="block mt-4 mr-4 text-white md:inline-block md:mt-0 hover:text-gray-800"
+              className="block mt-4 mr-4 text-white md:text-lg md:inline-block md:mt-0 hover:text-dotikDarkBrown"
             >
               Kontakt
             </Link>

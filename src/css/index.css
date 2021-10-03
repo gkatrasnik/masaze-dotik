@@ -22,11 +22,11 @@ p {
 }
 
 a {
-  @apply text-gray-700;
+  @apply text-dotikExtraDarkBrown;
   @apply text-base;
 }
 a:hover {
-  @apply text-gray-400;
+  @apply text-dotikDarkBrown;
 }
 
 @tailwind components;
