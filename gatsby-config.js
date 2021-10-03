@@ -83,7 +83,7 @@ module.exports = {
       resolve: "gatsby-plugin-robots-txt",
       options: {
         host: "https://masaze-dotik.netlify.app",
-        sitemap: "https://masaze-dotik.netlify.app/sitemap.xml",
+        sitemap: "https://masaze-dotik.netlify.app/sitemap/sitemap-index.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
