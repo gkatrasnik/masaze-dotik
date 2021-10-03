@@ -10,7 +10,7 @@ const Reference = props => (
     <SEO title="Reference" />
     <h1 className="text-center my-8">Reference</h1>
     <div>
-      <div className="flex flex-col w-4/5 mx-auto justify-center  py-4 md:py-2  my-2 ">
+      <div className="flex flex-col w-4/5 mx-auto justify-center  py-4 md:py-8 px-4 my-2 ">
         <StaticImage
           src="../images/tokio_primoz_roglic_jernej_svab.jpeg"
           alt="Primož Roglič olimpijske igre Tokio 2021"

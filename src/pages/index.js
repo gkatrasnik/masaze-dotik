@@ -14,28 +14,31 @@ const IndexPage = () => (
       style={{
         backgroundImage: `url(${Banner})`,
         backgroundSize: "cover",
-        height: "87vh",
+        height: "91vh",
       }}
     >
-      <div className="h-full flex flex-wrap-reverse justify-center md:flex-nowrap py-4 md:py-8 px-4  ">
-        <div className="p-4 md:w-1/2 flex justify-center content-center  ">
+      <div className="h-full flex flex-wrap-reverse justify-evenly md:flex-nowrap py-4 md:py-8 px-4  ">
+        <div className="p-4 flex justify-center ">
           <div className="flex flex-col justify-center">
             <p className="text-lg text-white">
               Telefon:
-              <a href="tel:040996397" className="text-lg">
+              <a href="tel:040996397" className="text-xl font-extralight">
                 <b> 040 996 397</b>
               </a>
             </p>
             <p className="text-lg text-white">
               Email:
-              <a href="mailto:masaze.dotik@gmail.com" className="text-lg">
+              <a
+                href="mailto:masaze.dotik@gmail.com"
+                className="text-xl font-extralight"
+              >
                 <b> masaze.dotik@gmail.com </b>
               </a>
             </p>
-            <p className="text-lg text-white">
+            <p className="text-xl font-extralight text-white">
               Naslov:<b> Planina 3, 4000 Kranj </b>
             </p>
-            <p className="text-lg text-white">
+            <p className="text-xl font-extralight text-white">
               Delovni čas:<b> Po dogovoru </b>
             </p>
           </div>
@@ -59,7 +62,7 @@ const IndexPage = () => (
         height={300}
         className="rounded"
       />
-      <div className="p-4 md:w-1/2 ">
+      <div className="p-4 md:w-1/2 flex flex-col justify-center">
         <p>
           <b>Jernej Švab</b> maser in terapevt.
         </p>
