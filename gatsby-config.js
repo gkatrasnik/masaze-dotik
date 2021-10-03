@@ -3,7 +3,7 @@ module.exports = {
     title: `Masaže Dotik`,
     description: `Masažni salon Jernej Švab Kranj`,
     author: `@masaze-dotik <masaze.dotik@gmail.com>`,
-    siteUrl: `https://masaze-dotik.netlify.app/`
+    siteUrl: `https://masaze-dotik.netlify.app/`,
   },
   flags: {
     THE_FLAG: false,
@@ -80,11 +80,12 @@ module.exports = {
       },
     },
     {
-    resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://masaze-dotik.netlify.app',
-        sitemap: 'https://masaze-dotik.netlify.app/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
+        host: "https://masaze-dotik.netlify.app",
+        sitemap: "https://masaze-dotik.netlify.app/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
   ],
 }
