@@ -9,7 +9,7 @@ const Omeni = () => (
   <Layout>
     <SEO title="O meni" />
     <h1 className="text-center my-8">O meni - Jernej Švab</h1>
-    <div className="flex flex-wrap justify-center md:w-4/5 mx-auto py-4 md:py-8 px-4 my-2 ">
+    <div className="flex flex-wrap justify-center md:w-4/5 max-w-screen-md mx-auto py-4 md:py-8 px-4 my-2 ">
       <p className=" pb-6 ">
         Sem Jernej Švab, maser in terapevt. Prihajam iz Tržiča, delam pa v
         svojem masažnem salonu v Kranju. Od malih nog sem povezan s športom. 10

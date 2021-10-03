@@ -18,31 +18,30 @@ const IndexPage = () => (
       }}
     >
       <div className="h-full flex flex-wrap-reverse justify-evenly md:flex-nowrap py-4 md:py-8 px-4  ">
-        <div className="p-4 flex justify-center ">
-          <div className="flex flex-col justify-center">
-            <p className="text-lg text-white">
-              Telefon:
-              <a href="tel:040996397" className="text-xl font-extralight">
-                <b> 040 996 397</b>
-              </a>
-            </p>
-            <p className="text-lg text-white">
-              Email:
-              <a
-                href="mailto:masaze.dotik@gmail.com"
-                className="text-xl font-extralight"
-              >
-                <b> masaze.dotik@gmail.com </b>
-              </a>
-            </p>
-            <p className="text-xl font-extralight text-white">
-              Naslov:<b> Planina 3, 4000 Kranj </b>
-            </p>
-            <p className="text-xl font-extralight text-white">
-              Delovni čas:<b> Po dogovoru </b>
-            </p>
-          </div>
+        <div className="flex flex-col justify-center">
+          <p className="text-lg text-white">
+            Telefon:
+            <a href="tel:040996397" className="text-xl font-extralight">
+              <b> 040 996 397</b>
+            </a>
+          </p>
+          <p className="text-lg text-white">
+            Email:
+            <a
+              href="mailto:masaze.dotik@gmail.com"
+              className="text-xl font-extralight"
+            >
+              <b> masaze.dotik@gmail.com </b>
+            </a>
+          </p>
+          <p className="text-xl font-extralight text-white">
+            Naslov:<b> Planina 3, 4000 Kranj </b>
+          </p>
+          <p className="text-xl font-extralight text-white">
+            Delovni čas:<b> Po dogovoru </b>
+          </p>
         </div>
+
         <div className="flex flex-col justify-center">
           <StaticImage
             src="../images/jernej_svab_masaze_dotik_2.jpeg"
