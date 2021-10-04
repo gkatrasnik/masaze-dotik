@@ -58,7 +58,7 @@ function Header({ siteTitle }) {
             </Link>
             <Link
               to={`/cenik`}
-              className="block mt-4 mr-4 text-white md:text-lg md:inline-block md:mt-0 hover:text-dotikDarkBrown"
+              className="block mt-4 mr-4 text-white md:text-lg md:inline-block md:mt-0 hover:text-dotikDarkBrown hover:border-b hover:border-dotikDarkBrown"
             >
               Cenik
             </Link>
