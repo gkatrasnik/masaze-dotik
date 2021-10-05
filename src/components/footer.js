@@ -15,8 +15,13 @@ function Footer() {
           </Link>
         </div>
         <Link>
-          <div className="leading-loose">
-            <a href="tel:040996397"> Tel: 040 996 397</a>
+          <div className="leading-loose font-bold ">
+            <a
+              className="border-b border-dotikExtraDarkBrown"
+              href="tel:+386 40 996 397"
+            >
+              Tel: +386 40 996 397
+            </a>
           </div>
         </Link>
         <div className="leading-loose">

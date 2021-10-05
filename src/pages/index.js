@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -18,28 +19,19 @@ const IndexPage = () => (
       }}
     >
       <div className="h-full flex flex-wrap-reverse justify-evenly md:flex-nowrap py-4 md:py-8 px-4  ">
-        <div className="flex flex-col justify-center">
-          <p className="text-lg text-white">
-            Telefon:
-            <a href="tel:040996397" className="text-xl font-extralight">
-              <b> 040 996 397</b>
-            </a>
-          </p>
-          <p className="text-lg text-white">
-            Email:
-            <a
-              href="mailto:masaze.dotik@gmail.com"
-              className="text-xl font-extralight"
-            >
-              <b> masaze.dotik@gmail.com </b>
-            </a>
-          </p>
-          <p className="text-xl font-extralight text-white">
-            Naslov:<b> Planina 3, 4000 Kranj </b>
-          </p>
-          <p className="text-xl font-extralight text-white">
-            Delovni čas:<b> Po dogovoru </b>
-          </p>
+        <div className="flex flex-col justify-center w-64">
+          <h1 className="text-3xl font-semibold tracking-wide leading-relaxed text-white ">
+            MASAŽE DOTIK
+          </h1>
+          <h2 className="text-2xl tracking-wide text-white ">
+            Odpravimo bolečine in poskrbimo za dobro počutje
+          </h2>
+          <p className="text-xl font-light text-white"></p>
+          <Link to={`/kontakt`}>
+            <p className="text-xl  text-dotikDarkBrown border w-40 p-2 text-center  my-4 border-dotikExtraDarkBrown">
+              KONTAKT
+            </p>
+          </Link>
         </div>
 
         <div className="flex flex-col justify-center">

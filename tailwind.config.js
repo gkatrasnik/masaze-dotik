@@ -11,6 +11,10 @@ module.exports = {
         dotikExtraDarkBrown: "#a06f50",
         dotikHeaderBrown: "#3b332e",
       },
+      fontFamily: {
+        playfairDisplay: ["playfair-display", "serif"],
+        crimsonPro: ["crimson-pro", "serif"],
+      },
     },
   },
   variants: {},

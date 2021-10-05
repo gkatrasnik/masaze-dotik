@@ -1,16 +1,13 @@
 {
-  "name": "Masaze Dotik",
+  "name": "masaze-dotik",
   "private": true,
-  "description": "Masažni salon Jernej Švab Kranj",
+  "description": "Masažni salon Dotik Jernej Švab",
   "version": "0.3.0",
-  "author": "Masaze Dotik <masaze.dotik@gmail.com>",
+  "author": "Masaže Dotik <masaze.dotik@gmail.com>",
   "dependencies": {
-    "@fontsource/open-sans": "^4.5.1",
-    "@fontsource/roboto": "^4.5.1",
     "autoprefixer": "^10.2.6",
     "gatsby": "^3.7.1",
     "gatsby-image": "^3.7.1",
-    "gatsby-plugin-google-analytics": "^3.7.1",
     "gatsby-plugin-image": "^1.7.1",
     "gatsby-plugin-manifest": "^3.7.1",
     "gatsby-plugin-offline": "^4.7.1",
@@ -27,7 +24,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "typeface-crimson-pro": "^1.1.13",
+    "typeface-playfair-display": "^1.1.13"
   },
   "devDependencies": {
     "prettier": "^2.3.1",
