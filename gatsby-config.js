@@ -3,7 +3,7 @@ module.exports = {
     title: `Masaže Dotik`,
     description: `Odpravimo bolečine in poskrbimo za dobro počutje. V masažnem salonu Dotik nudimo terapevtske, športne in klasične masaže. Pokličite in rezervirajte svoj termin.`,
     author: `Jernej Švab <masaze.dotik@gmail.com>`,
-    siteUrl: `https://masaze-dotik.netlify.app`,
+    siteUrl: `https://masaze-dotik.si`,
   },
   flags: {
     THE_FLAG: false,
@@ -54,8 +54,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://masaze-dotik.netlify.app",
-        sitemap: "https://masaze-dotik.netlify.app/sitemap/sitemap-index.xml",
+        host: "https://masaze-dotik.si",
+        sitemap: "https://masaze-dotik.si/sitemap/sitemap-index.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
