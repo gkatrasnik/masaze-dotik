@@ -24,7 +24,7 @@ const IndexPage = () => (
             MASAŽE DOTIK
           </h1>
           <h2 className="text-2xl tracking-wide text-white ">
-            Odpravimo bolečine in poskrbimo za dobro počutje
+            Odpravimo bolečine in poskrbimo za dobro počutje.
           </h2>
           <p className="text-xl font-light text-white"></p>
           <Link to={`/kontakt`}>
@@ -61,7 +61,7 @@ const IndexPage = () => (
         <p>
           Pri svojem delu skupaj s stranko opredeliva težavo, s celostnim
           pristopom poiščeva vzrok problema in ga odpraviva. Tehnike in znanja
-          ki jih uporabljam, so pridobljena z leti izkušenj in izobraževanj.
+          ki jih uporabljam, so pridobljene z leti izkušenj in izobraževanj.
         </p>
       </div>
     </div>
