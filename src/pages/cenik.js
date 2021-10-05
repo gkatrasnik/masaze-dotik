@@ -9,7 +9,7 @@ const Cenik = props => (
     <SEO title="Cenik" />
     <h1 className="text-center text-3xl my-8">CENIK</h1>
     <div className="py-4 md:py-8 px-4 my-2 w-screen sm:w-full ">
-      <table className="table-auto w-4/5 mx-auto">
+      <table className="table-auto w-full sm:w-3/4 mx-auto">
         <thead>
           <tr>
             <th className=" sm:w-40"></th>
