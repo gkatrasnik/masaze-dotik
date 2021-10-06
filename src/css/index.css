@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
 @tailwind base;
 
 html,
@@ -5,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  @apply font-playfair;
+  font-family: "Lora", serif;
 }
 
 h1 {
