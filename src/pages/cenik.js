@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Cenik = props => (
   <Layout>
     <SEO title="Cenik" />
-    <h1 className="text-center  my-8">CENIK</h1>
+    <h1 className="text-center font-bold my-8">CENIK</h1>
     <div className="py-4 md:py-8 px-4 my-2 w-screen sm:w-full ">
       <table className="table-auto w-full sm:w-3/4 mx-auto">
         <thead>

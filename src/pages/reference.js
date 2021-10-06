@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const Reference = props => (
   <Layout>
     <SEO title="Reference" />
-    <h1 className="text text-center my-8">REFERENCE</h1>
+    <h1 className="text text-center font-bold my-8">REFERENCE</h1>
     <div className="flex my-auto flex-wrap  m-6  ">
       <div className="flex justify-start flex-col  w-96 mx-auto  p-4   my-2 ">
         <StaticImage

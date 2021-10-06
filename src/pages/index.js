@@ -20,7 +20,7 @@ const IndexPage = () => (
     >
       <div className="h-full flex flex-wrap-reverse justify-evenly md:flex-nowrap py-4 md:py-8 px-4  ">
         <div className="flex flex-col justify-center w-64">
-          <h1 className="font-semibold tracking-wide leading-relaxed text-white ">
+          <h1 className="font-medium tracking-wide leading-relaxed text-white ">
             MASAŽE DOTIK
           </h1>
           <h2 className="text-2xl tracking-wide text-white ">
