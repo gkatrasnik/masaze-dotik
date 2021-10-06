@@ -9,7 +9,7 @@ const Reference = props => (
   <Layout>
     <SEO title="Reference" />
     <h1 className="text text-center font-bold my-8">REFERENCE</h1>
-    <div className="flex my-auto flex-wrap  m-6  ">
+    <div className="flex my-auto flex-wrap  m-6 max-w-screen-md mx-auto  ">
       <div className="flex justify-start flex-col  w-96 mx-auto  p-4   my-2 ">
         <StaticImage
           src="../images/tokio_primoz_roglic_jernej_svab.jpeg"

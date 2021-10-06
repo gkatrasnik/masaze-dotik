@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Terapevtska, športna, klasična masaža" />
     <div
-      className="w-screen"
+      className="w-full"
       style={{
         backgroundImage: `url(${Banner})`,
         backgroundSize: "cover",
