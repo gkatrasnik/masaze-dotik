@@ -12,7 +12,7 @@ module.exports = {
         dotikHeaderBrown: "#3b332e",
       },
       fontFamily: {
-        playfairDisplay: ["playfair-display"],
+        playfair: ["playfair-display"],
         crimsonPro: ["crimson-pro"],
       },
     },

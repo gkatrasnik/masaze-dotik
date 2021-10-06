@@ -9,45 +9,41 @@ const Reference = props => (
   <Layout>
     <SEO title="Reference" />
     <h1 className="text text-center my-8">REFERENCE</h1>
-    <div className="flex flex-wrap m-4  ">
-      <div className="flex justify-start flex-col  md:w-80 mx-auto  p-4   my-2 ">
+    <div className="flex my-auto flex-wrap  m-6  ">
+      <div className="flex justify-start flex-col  w-96 mx-auto  p-4   my-2 ">
         <StaticImage
           src="../images/tokio_primoz_roglic_jernej_svab.jpeg"
           alt="Primož Roglič olimpijske igre Tokio 2021"
-          width={400}
           className="rounded"
         />
         <div className="p-4 text-center">
           <h2>Primož Roglič</h2>
         </div>
       </div>
-      <div className="flex justify-start flex-col  md:w-80 mx-auto  p-4   my-2 ">
+      <div className="flex justify-start flex-col w-96 mx-auto  p-4   my-2 ">
         <StaticImage
           src="../images/jumbo-visma.jpg"
           alt="Jumbo Visma cycling team"
-          width={400}
           className="rounded"
         />
         <div className="p-4  text-center">
           <h2>Jumbo Visma Pro Cycling</h2>
         </div>
       </div>
-      <div className="flex justify-start flex-col  md:w-80 mx-auto  p-4   my-2 ">
+      <div className="flex justify-start flex-col w-96 mx-auto  p-4   my-2 ">
         <StaticImage
           src="../images/tokio_primoz_roglic_jernej_svab_medalja.jpeg"
           alt="Primož Roglič olimpijske igre Tokio 2021 medalja, Jernej Švab"
-          width={400}
           className="rounded"
         />
         <div className="p-4  text-center">
           <h2>Kolesarska zveza Slovenije</h2>
         </div>
       </div>
-      <div className="flex justify-start flex-col  md:w-80 mx-auto  p-4   my-2 ">
+      <div className="flex justify-start flex-col  w-96 mx-auto  p-4   my-2 ">
         <StaticImage
           src="../images/adria-mobil.jpg"
           alt="Kolesarski klub Adria Mobil"
-          width={400}
           className="rounded"
         />
         <div className="p-4 text-center">

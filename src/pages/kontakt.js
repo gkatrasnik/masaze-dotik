@@ -9,7 +9,7 @@ const Kontakt = props => (
     <SEO title="Kontakt" />
     <h1 className="text-center my-8">KONTAKT</h1>
 
-    <div className="flex flex-col justify-center  py-4 sm:py-8 px-4 my-2 w-full sm:w-3/4 mx-auto">
+    <div className="flex flex-col justify-center py-4 sm:py-8 px-4 my-2 w-full sm:w-3/4 mx-auto">
       <p className="text-lg">
         <b>DOTIK, MASAŽNE STORITVE, JERNEJ ŠVAB S.P.</b>
       </p>
