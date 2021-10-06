@@ -7,7 +7,7 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className=" sticky  w-full z-10 flex flex-wrap items-center justify-between py-4 px-6 mb-0 bg-black ">
+    <nav className=" sticky h-16 w-full z-10 flex flex-wrap items-center justify-between py-4 px-6 mb-0 bg-black ">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
         {/* <StaticImage
           src="../images/logo-horizontal.png"
@@ -18,7 +18,7 @@ function Header({ siteTitle }) {
         */}
         <Link to={`/`}>
           <span className="text-2xl font-light  tracking-tight text-white hover:text-dotikDarkBrown">
-            {siteTitle}
+            MASAŽE DOTIK
           </span>
         </Link>
       </div>

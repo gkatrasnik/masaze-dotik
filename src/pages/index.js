@@ -10,17 +10,17 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Domov" />
     <div
-      className="w-full"
+      className="w-screen"
       style={{
         backgroundImage: `url(${Banner})`,
         backgroundSize: "cover",
         backgroundPosition: "center center",
-        height: "92vh",
+        height: "calc(100vh - 4rem)",
       }}
     >
       <div className="h-full flex flex-wrap-reverse justify-evenly md:flex-nowrap py-4 md:py-8 px-4  ">
         <div className="flex flex-col justify-center w-64">
-          <h1 className="text-3xl font-semibold tracking-wide leading-relaxed text-white ">
+          <h1 className="font-semibold tracking-wide leading-relaxed text-white ">
             MASAŽE DOTIK
           </h1>
           <h2 className="text-2xl tracking-wide text-white ">

@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Cenik = props => (
   <Layout>
     <SEO title="Cenik" />
-    <h1 className="text-center text-3xl my-8">CENIK</h1>
+    <h1 className="text-center  my-8">CENIK</h1>
     <div className="py-4 md:py-8 px-4 my-2 w-screen sm:w-full ">
       <table className="table-auto w-full sm:w-3/4 mx-auto">
         <thead>
@@ -34,7 +34,7 @@ const Cenik = props => (
             <td className=" text-center">50€</td>
           </tr>
           <br />
-          <tr className="border-t-2 border-gray-400 ">
+          <tr className="border-t border-black ">
             <th>Športna masaža</th>
             <td className=" text-center">30min</td>
             <td className=" text-center">30€</td>
@@ -50,7 +50,7 @@ const Cenik = props => (
             <td className="text-center">50€</td>
           </tr>
           <br />
-          <tr className="border-t-2 border-gray-400 ">
+          <tr className="border-t border-black ">
             <th>Klasična masaža</th>
             <td className=" text-center">60min</td>
             <td className=" text-center">40€</td>

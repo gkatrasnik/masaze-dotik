@@ -12,8 +12,8 @@ module.exports = {
         dotikHeaderBrown: "#3b332e",
       },
       fontFamily: {
-        playfairDisplay: ["playfair-display", "serif"],
-        crimsonPro: ["crimson-pro", "serif"],
+        playfairDisplay: ["playfair-display"],
+        crimsonPro: ["crimson-pro"],
       },
     },
   },
