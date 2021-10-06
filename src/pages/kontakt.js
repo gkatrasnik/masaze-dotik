@@ -30,7 +30,7 @@ const Kontakt = props => (
         <b>Naslov: </b>Planina 3, 4000 Kranj
       </p>
       <p className="text-lg">
-        <b>Delovni čas: </b>Po dogovoru.
+        <b>Delovni čas: </b>Po dogovoru
       </p>
     </div>
     <div className="flex flex-col sm:flex-row justify-center my-4">

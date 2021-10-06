@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const Omeni = () => (
   <Layout>
-    <SEO title="O meni" />
+    <SEO title="O meni - Jernej Švab" />
     <h1 className="text-center my-8">O MENI - Jernej Švab</h1>
     <div className="flex flex-wrap justify-center md:w-4/5 max-w-screen-md mx-auto py-4 md:py-8 px-4 my-2 ">
       <p className=" pb-6 ">

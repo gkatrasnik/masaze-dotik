@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Masaže Dotik`,
+    title: `Masaže Dotik Kranj`,
     description: `Odpravimo bolečine in poskrbimo za dobro počutje. V masažnem salonu Dotik nudimo terapevtske, športne in klasične masaže. Pokličite in rezervirajte svoj termin.`,
     author: `Jernej Švab <masaze.dotik@gmail.com>`,
     siteUrl: `https://masaze-dotik.si`,

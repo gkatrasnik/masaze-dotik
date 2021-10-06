@@ -8,7 +8,7 @@ import Banner from "../images/banner-photo.jpg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Domov" />
+    <SEO title="Terapevtska, športna, klasična masaža" />
     <div
       className="w-screen"
       style={{
