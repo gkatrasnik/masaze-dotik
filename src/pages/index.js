@@ -45,7 +45,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="flex flex-wrap justify-center md:flex-nowrap w-4/5 mx-auto py-4 md:py-8 px-4 my-12 ">
+    <div className="flex flex-wrap h-screen justify-center md:flex-nowrap w-4/5 mx-auto py-4 md:py-8 px-4 my-12 ">
       <StaticImage
         src="../images/pri-delu.jpg"
         alt="Jernej Švab, Masaže Dotik"
