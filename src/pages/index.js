@@ -8,7 +8,7 @@ import Banner from "../images/banner-photo.jpg"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Terapevtska, športna, klasična masaža" />
+    <SEO title="Masaže in Terapije Kranj" />
     <div
       className="w-full"
       style={{
@@ -57,13 +57,13 @@ const IndexPage = () => (
       />
       <div className="p-4 md:w-1/2 max-w-3xl	 flex flex-col justify-center">
         <p>
-          <b>Jernej Švab</b> maser in terapevt.
+          <b>Jernej Švab</b>, maser in terapevt.
         </p>
 
         <p>
           Pri svojem delu skupaj s stranko opredeliva težavo, s celostnim
-          pristopom poiščeva vzrok problema in ga odpraviva. Tehnike in znanja
-          ki jih uporabljam, so pridobljene z leti izkušenj in izobraževanj.
+          pristopom poiščeva vzrok problema in ga odpraviva. Tehnike in znanja,
+          ki jih uporabljam, so pridobljena z leti izkušenj in izobraževanj.
         </p>
       </div>
     </div>

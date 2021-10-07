@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Masaže Dotik Kranj`,
-    description: `Odpravimo bolečine in poskrbimo za dobro počutje. V masažnem salonu Dotik nudimo terapevtske, športne in klasične masaže.`,
+    title: `Masaže Dotik`,
+    description: `Odpravimo bolečine in poskrbimo za dobro počutje. Najboljše terapevtske, športne in klasične masaže.`,
     author: `Jernej Švab <masaze.dotik@gmail.com>`,
     siteUrl: `https://www.masaze-dotik.si`,
   },
@@ -11,6 +11,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.masaze-dotik.si`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -30,7 +36,7 @@ module.exports = {
         background_color: `#000000`,
         theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon-cut.png`, // This path is relative to the root of the site.
+        icon: `src/images/dotik-logo-bela-cut.svg`, // This path is relative to the root of the site.
       },
     },
 

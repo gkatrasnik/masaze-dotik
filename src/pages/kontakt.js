@@ -5,7 +5,10 @@ import SEO from "../components/seo"
 
 const Kontakt = props => (
   <Layout>
-    <SEO title="Kontakt" />
+    <SEO
+      title="Kontakt"
+      description="Pokličite in skupaj poiščimo termin za vaš obisk"
+    />
     <h1 className="text-center font-bold my-8">KONTAKT</h1>
 
     <div className="flex flex-col justify-center py-4 sm:py-8 px-4 my-2 w-full max-w-md mx-auto">
@@ -29,7 +32,7 @@ const Kontakt = props => (
         <b>Naslov: </b>Planina 3, 4000 Kranj
       </p>
       <p className="text-lg">
-        <b>Delovni čas: </b>Po dogovoru
+        <b>Delovni čas: </b>po dogovoru
       </p>
     </div>
     <div className="flex flex-col sm:flex-row justify-center my-4">

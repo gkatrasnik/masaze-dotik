@@ -7,7 +7,10 @@ import SEO from "../components/seo"
 
 const Reference = props => (
   <Layout>
-    <SEO title="Reference" />
+    <SEO
+      title="Reference"
+      description="S svojim delom so do boljšega počutja in sanacije poškodb pomagal tudi številnim vrhunskim športnikom."
+    />
     <h1 className="text text-center font-bold my-8">REFERENCE</h1>
     <div className="flex my-auto flex-wrap  m-6 max-w-screen-md mx-auto  ">
       <div className="flex justify-start flex-col  w-96 mx-auto  p-4   my-2 ">
@@ -47,7 +50,7 @@ const Reference = props => (
           className="rounded"
         />
         <div className="p-4 text-center">
-          <h2>Kolesarski Klub Adria Mobil</h2>
+          <h2>Kolesarski klub Adria Mobil</h2>
         </div>
       </div>
     </div>
