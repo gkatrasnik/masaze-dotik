@@ -35,7 +35,8 @@ const Omeni = () => (
         src="../images/jernej_svab_masaze_dotik.jpeg"
         alt="masažni salon Masaže Dotik"
         width={500}
-        className="rounded-lg p-2"
+        className="rounded-lg "
+        quality={100}
       />
     </div>
   </Layout>

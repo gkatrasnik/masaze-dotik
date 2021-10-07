@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -33,7 +31,7 @@ const Cenik = props => (
             <td className=" text-center">90min</td>
             <td className=" text-center">50€</td>
           </tr>
-          <br />
+
           <tr className="border-t-2 border-black ">
             <th>Športna masaža</th>
             <td className=" text-center">30min</td>
@@ -49,7 +47,7 @@ const Cenik = props => (
             <td className=" text-center">90min</td>
             <td className="text-center">50€</td>
           </tr>
-          <br />
+
           <tr className="border-t-2 border-black ">
             <th>Klasična masaža</th>
             <td className=" text-center">60min</td>

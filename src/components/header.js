@@ -9,15 +9,14 @@ function Header({ siteTitle }) {
   return (
     <nav className=" sticky w-full z-10 flex flex-wrap items-center justify-between py-4 px-6 mb-0 bg-black ">
       <div className="flex items-center flex-shrink-0 mr-6 text-white">
-        {/* <StaticImage
-          src="../images/logo-horizontal.png"
-          alt="masaže dotik logo"
-          width={117}
-          height={40}
-        />
-        */}
-        <Link to={`/`}>
-          <span className="text-2xl font-light  tracking-tight text-white hover:text-dotikDarkBrown">
+        <Link to={`/`} className="flex items-center">
+          <StaticImage
+            src="../images/logo.png"
+            alt="masaže dotik logo"
+            height={32}
+          />
+
+          <span className="text-lg font-light ml-2 tracking-tight text-white hover:text-dotikDarkBrown">
             MASAŽE DOTIK
           </span>
         </Link>

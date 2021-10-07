@@ -30,6 +30,8 @@ function SEO({ description, lang, meta, title }) {
 
   return (
     <Helmet
+      name="icon"
+      href="src/images/gatsby-icon-cut.png"
       htmlAttributes={{
         lang,
       }}

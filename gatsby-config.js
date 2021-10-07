@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Masaže Dotik Kranj`,
-    description: `Odpravimo bolečine in poskrbimo za dobro počutje. V masažnem salonu Dotik nudimo terapevtske, športne in klasične masaže. Pokličite in rezervirajte svoj termin.`,
+    description: `Odpravimo bolečine in poskrbimo za dobro počutje. V masažnem salonu Dotik nudimo terapevtske, športne in klasične masaže.`,
     author: `Jernej Švab <masaze.dotik@gmail.com>`,
-    siteUrl: `https://masaze-dotik.si`,
+    siteUrl: `https://www.masaze-dotik.si`,
   },
   flags: {
     THE_FLAG: false,
@@ -30,7 +30,7 @@ module.exports = {
         background_color: `#000000`,
         theme_color: `#000000`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon-cut.png`, // This path is relative to the root of the site.
       },
     },
 
@@ -54,8 +54,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://masaze-dotik.si",
-        sitemap: "https://masaze-dotik.si/sitemap/sitemap-index.xml",
+        host: "https://www.masaze-dotik.si",
+        sitemap: "https://www.masaze-dotik.si/sitemap/sitemap-index.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },

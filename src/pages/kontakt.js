@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { FaFacebook, FaInstagram } from "react-icons/fa"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -34,15 +33,12 @@ const Kontakt = props => (
       </p>
     </div>
     <div className="flex flex-col sm:flex-row justify-center my-4">
-      <Link to={`https://www.facebook.com/dotikmasaze`} className="px-2 my-2">
+      <a href="https://www.facebook.com/dotikmasaze" className="px-2 my-2">
         <FaFacebook size={"5em"} className="mx-auto " />
-      </Link>
-      <Link
-        to={`https://www.instagram.com/masaze.dotik/`}
-        className="px-2 my-2"
-      >
+      </a>
+      <a href="https://www.instagram.com/masaze.dotik" className="px-2 my-2">
         <FaInstagram size={"5em"} className="mx-auto " />
-      </Link>
+      </a>
     </div>
   </Layout>
 )

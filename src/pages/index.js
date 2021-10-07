@@ -41,6 +41,7 @@ const IndexPage = () => (
             height={260}
             width={260}
             className="rounded-full"
+            quality={100}
           />
         </div>
       </div>
@@ -52,6 +53,7 @@ const IndexPage = () => (
         width={400}
         height={300}
         className="rounded"
+        quality={90}
       />
       <div className="p-4 md:w-1/2 max-w-3xl	 flex flex-col justify-center">
         <p>
