@@ -1,0 +1,9 @@
+# Redirect default Netlify subdomain to primary domain
+
+https://masaze-dotik.netlify.app/* https://www.masaze-dotik.si/:splat 301!
+
+http://www.masaze-dotik.si/* https://www.masaze-dotik.si/:splat 301!
+
+http://masaze-dotik.si/* https://www.masaze-dotik.si/:splat 301!
+
+https://masaze-dotik.si/* https://www.masaze-dotik.si/:splat 301!
