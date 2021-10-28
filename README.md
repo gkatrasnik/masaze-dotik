@@ -2,7 +2,7 @@
 # masaze-dotik
 www.masaze-dotik.si
 
-masaze dotik, small bussiness website
+masaze dotik, responsive, design, small bussiness website
 Tools used:
 - ReactJS
 - Gatsby
