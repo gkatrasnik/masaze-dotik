@@ -24,12 +24,12 @@ const Cenik = props => (
           <tr>
             <th></th>
             <td className=" text-center">60 min</td>
-            <td className=" text-center">40 €</td>
+            <td className=" text-center">50 €</td>
           </tr>
           <tr>
             <th></th>
             <td className=" text-center">90 min</td>
-            <td className=" text-center">50 €</td>
+            <td className=" text-center">70 €</td>
           </tr>
 
           <tr className="border-t-2 border-black ">
@@ -40,23 +40,23 @@ const Cenik = props => (
           <tr>
             <th></th>
             <td className=" text-center">60 min</td>
-            <td className=" text-center">40 €</td>
+            <td className=" text-center">50 €</td>
           </tr>
           <tr>
             <th></th>
             <td className=" text-center">90 min</td>
-            <td className="text-center">50 €</td>
+            <td className="text-center">70 €</td>
           </tr>
 
           <tr className="border-t-2 border-black ">
             <th>Klasična masaža</th>
             <td className=" text-center">60 min</td>
-            <td className=" text-center">40 €</td>
+            <td className=" text-center">50 €</td>
           </tr>
           <tr>
             <th></th>
             <td className=" text-center">90 min</td>
-            <td className=" text-center">50 €</td>
+            <td className=" text-center">70 €</td>
           </tr>
         </tbody>
       </table>
