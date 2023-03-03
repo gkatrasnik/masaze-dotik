@@ -43,11 +43,11 @@ const Kontakt = props => (
           referrerpolicy="no-referrer-when-downgrade">
       </iframe>
     </div>
-    <div className=" flex-col sm:flex-row justify-center my-4">
-      <a href="https://www.facebook.com/dotikmasaze" className="px-2 my-2">
+    <div className="flex justify-center my-4">
+      <a href="https://www.facebook.com/dotikmasaze" className="px-4 my-4">
         <FaFacebook size={"5em"} className="mx-auto " />
       </a>
-      <a href="https://www.instagram.com/masaze.dotik" className="px-2 my-2">
+      <a href="https://www.instagram.com/masaze.dotik" className="px-4 my-4">
         <FaInstagram size={"5em"} className="mx-auto " />
       </a>
     </div>
