@@ -44,5 +44,14 @@ td {
   @apply text-lg;
 }
 
+.embeded-maps {
+  border: 0;
+  width: 100vw;
+  height: 100vw;
+  max-width: 600px;
+  max-height: 450px;
+  padding: 16px;
+}
+
 @tailwind components;
 @tailwind utilities;

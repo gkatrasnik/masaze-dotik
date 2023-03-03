@@ -35,7 +35,15 @@ const Kontakt = props => (
         <b>Delovni čas: </b>po dogovoru
       </p>
     </div>
-    <div className="flex flex-col sm:flex-row justify-center my-4">
+    <div className="flex justify-center ">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2759.829014684509!2d14.360930216218469!3d46.233744889784084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477ab7fb93219def%3A0x18f490338004aad9!2sPlanina%203%2C%204000%20Kranj!5e0!3m2!1ssl!2ssi!4v1677840285136!5m2!1ssl!2ssi" 
+          className="embeded-maps"
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div className=" flex-col sm:flex-row justify-center my-4">
       <a href="https://www.facebook.com/dotikmasaze" className="px-2 my-2">
         <FaFacebook size={"5em"} className="mx-auto " />
       </a>
